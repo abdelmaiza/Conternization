@@ -1,5 +1,6 @@
 # Conternization
 command
+ - docker : show all options
  - docker pull : pull image from docker hub
  - docker images : list all images
  - docker rmi (ID Image) : remove image 
