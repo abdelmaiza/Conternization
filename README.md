@@ -18,7 +18,7 @@ Installez Docker en tapant la commande suivante:
 brew install docker
 
 Installez kubectl en tapant la commande suivante:
-brew install kubectl
+{% filename %}brew install kubectl{% endfilename %}
 
 Installez minikube en tapant la commande suivante:
 brew install minikube
