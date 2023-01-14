@@ -12,22 +12,34 @@ command
 Pour installer OpenShift en local sur un MacBookPro 16,2, vous pouvez utiliser l'outil minikube pour installer un cluster Kubernetes localement. Ensuite, vous pouvez installer OpenShift sur ce cluster en utilisant la commande oc cluster up. Voici les étapes à suivre:
 
 Installez Homebrew en ouvrant une fenêtre de terminal et en tapant la commande suivante:
+```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/main/install.sh)"
+```
 
 Installez Docker en tapant la commande suivante:
+```
 brew install docker
+```
 
 Installez kubectl en tapant la commande suivante:
-{% filename %}brew install kubectl{% endfilename %}
+```
+brew install kubectl
+```
 
 Installez minikube en tapant la commande suivante:
+```
 brew install minikube
+```
 
 Démarrez un cluster Kubernetes local avec minikube en tapant la commande suivante:
+```
 minikube start
+```
 
 Installez OpenShift CLI en tapant la commande suivante:
+```
 brew install openshift-cli
+```
 
 Pour installer OpenShift sur votre cluster Kubernetes local, utilisez la commande suivante :
 oc cluster up --create-machine --image=registry.access.redhat.com/openshift4/ose-cli --version=4.6.1 
