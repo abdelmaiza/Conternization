@@ -42,10 +42,14 @@ brew install openshift-cli
 ```
 
 Pour installer OpenShift sur votre cluster Kubernetes local, utilisez la commande suivante :
+```
 oc cluster up --create-machine --image=registry.access.redhat.com/openshift4/ose-cli --version=4.6.1 
+```
 
 Connectez-vous à l'interface d'administration OpenShift en tapant la commande suivante :
+```
 oc login -u developer -p developer
+```
 
 Vous devriez maintenant être en mesure d'utiliser OpenShift en local sur votre MacBookPro 16,2.
 
